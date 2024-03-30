@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    padding: 24px 0px;
+    background-color:  #165DF5;
+
+
+    .footer-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer--list{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            a{
+                color: #FFF;
+                font-feature-settings: 'salt' on, 'liga' off;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+
+        p{
+            color: #FFF;
+            text-align: right;
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+    }
+}

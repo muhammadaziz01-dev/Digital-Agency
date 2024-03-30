@@ -4,6 +4,8 @@ import Intro from "@ui/intro";
 import Main  from "@ui/main";
 import ThirdSection from "@ui/third-section";
 import FourthSection from "@ui/fourth-section";
+import CaruselSection from "@ui/carusel-section";
+import LastSection from './components/UI/last-section';
 
 import Footer from "@cm/footer";
 
@@ -18,7 +20,8 @@ function App() {
         <Main/>
         <ThirdSection/>
         <FourthSection/>
-
+        <CaruselSection/>
+        <LastSection/>
       </main>
       <Footer/>
     </>
